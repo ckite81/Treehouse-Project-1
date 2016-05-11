@@ -66,6 +66,7 @@ a:hover {
   overflow: hidden;
   padding-top: 70px;
   padding-right: 10px;
+  padding-left: 10px;
 } 
 
 .header-007 {
@@ -73,8 +74,9 @@ a:hover {
   background: url('images/JBspectreDP.jpg') center no-repeat;
   background-size: cover;
   overflow: hidden;
-  padding-top: 70px;
+  padding-top: 500px;
   padding-right: 10px;
+  padding-left: 10px;
 }
 
 header {
@@ -82,12 +84,13 @@ header {
 }
 
 header .profile-image {
-  margin: 100px;
+  margin-bottom: 20px;
+  margin-top: 20px;
   width: 200px;
   height: 200px;
-  border-radius: 1%;
+  border-radius: 0%;
   transition: all .5s;
-  opacity: .01;
+  opacity: .05;
 }
 
 header .profile-image:hover {
@@ -95,10 +98,16 @@ header .profile-image:hover {
   opacity: 1.0;
 }
 
+.locationhome{
+  text-align: center;
+  color: #ecf0f1;
+  margin: 10px;
+}
 
-.location {
-    text-align: center;
-    color: #ecf0f1;
+.location007{
+  text-align: center;
+  color: #ecf0f1;
+  margin: 10px;
 }
 
 .card {
@@ -118,7 +127,7 @@ header .profile-image:hover {
   text-align: center;
   box-shadow: rgba(0,0,0,0.5) -15px 20px 5px;
   transition: all .5s;
-  color: #1E8BC3;
+  color: black;
   font-style: italic;
   background: url('images/jb1.png') center no-repeat;
   opacity: .085;
@@ -126,6 +135,14 @@ header .profile-image:hover {
 
 .bond:hover {
   opacity: 1.0;
+}
+
+div.transbox p {
+  margin: 10px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.9;
+  font-weight: bold;
 }
 
 #photos {
@@ -170,6 +187,23 @@ header .profile-image:hover {
   opacity: 1;
 }
 
+.barrellimage {
+  font-size: 0;
+  text-align: center;
+  width: 250px;  /* Container's dimensions */
+  height: 150px;
+}
+img {
+  display: inline-block;
+  vertical-align: middle;
+  max-height: 100%;
+  max-width: 100%;
+}
+.trick {
+  display: inline-block;
+  vertical-align: middle;
+  height: 150px;
+}
 
 ul.skills {
   padding: 0;
