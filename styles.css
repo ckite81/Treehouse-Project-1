@@ -69,7 +69,7 @@ a:hover {
   background-size: cover;
   overflow: hidden;
   padding-top: 100px;
-  padding-right: 10px
+  padding-right: 10px;
   padding-left: 10px;
 } 
 
@@ -92,7 +92,6 @@ header .profile-image:hover {
 
 .tag {
   background: white;
-  border-radius: none;
   padding: 10px;
   display: table;
   font-size: 20px;
@@ -112,7 +111,6 @@ header .profile-image:hover {
   background: white;
   color: black;
   padding: 10px;
-  border-radius: none;
   display: table;
   margin: 10px auto;
   border: 1px solid black;
@@ -242,7 +240,7 @@ ul.habitlist {
   -webkit-column-gap:   0px;
   -moz-column-count:    3;
   -moz-column-gap:      0px;
-  column-count:         3px;
+  column-count:         3;
   column-gap:           0px;  
 }
 
